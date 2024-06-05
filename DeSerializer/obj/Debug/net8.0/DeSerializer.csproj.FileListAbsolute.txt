@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\DeSerializer\bin\Debug\net8.0\DeSerializer.deps.json
+C:\Users\User\source\repos\DeSerializer\bin\Debug\net8.0\DeSerializer.dll
+C:\Users\User\source\repos\DeSerializer\bin\Debug\net8.0\DeSerializer.pdb
+C:\Users\User\source\repos\DeSerializer\obj\Debug\net8.0\DeSerializer.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\DeSerializer\obj\Debug\net8.0\DeSerializer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\DeSerializer\obj\Debug\net8.0\DeSerializer.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\DeSerializer\obj\Debug\net8.0\DeSerializer.AssemblyInfo.cs
+C:\Users\User\source\repos\DeSerializer\obj\Debug\net8.0\DeSerializer.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\DeSerializer\obj\Debug\net8.0\DeSerializer.dll
+C:\Users\User\source\repos\DeSerializer\obj\Debug\net8.0\refint\DeSerializer.dll
+C:\Users\User\source\repos\DeSerializer\obj\Debug\net8.0\DeSerializer.pdb
+C:\Users\User\source\repos\DeSerializer\obj\Debug\net8.0\ref\DeSerializer.dll

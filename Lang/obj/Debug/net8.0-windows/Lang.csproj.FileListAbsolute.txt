@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\Lang\bin\Debug\net8.0-windows\Lang.deps.json
+C:\Users\User\source\repos\Lang\bin\Debug\net8.0-windows\Lang.dll
+C:\Users\User\source\repos\Lang\bin\Debug\net8.0-windows\Lang.pdb
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\Lang.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\Lang.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\Lang.AssemblyInfo.cs
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\Lang.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\Lang.dll
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\refint\Lang.dll
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\Lang.pdb
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\ref\Lang.dll
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\eng_theme.baml
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\ru_theme.baml
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\Themes\eng.baml
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\Themes\ru.baml
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\Lang_MarkupCompile.cache
+C:\Users\User\source\repos\Lang\obj\Debug\net8.0-windows\Lang.g.resources
