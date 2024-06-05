@@ -17,17 +17,18 @@ using System.Windows.Shapes;
 
 namespace practocsharp8
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         List<notes> notes;
         List<notes> notes_use = new List<notes>();
+
+
         int tmp_id = -1;
         public MainWindow()
         {
             InitializeComponent();
+
+
             notes = json.deser<List<notes>>("notes.json") ?? new List<notes>();
             date.SelectedDate = DateTime.Now;
             set();
@@ -35,21 +36,23 @@ namespace practocsharp8
 
         private void CUD(object sender, RoutedEventArgs e)
         {
-            if ((sender as Button) == panel.Children[0])
-            {
+            if ((sender as Button) == panel.Children[0]){
                 foreach (var a in txtboxes.Children) if ((a as TextBox).Text == "") return;
                 notes.Add(new notes((txtboxes.Children[0] as TextBox).Text, (txtboxes.Children[1] as TextBox).Text, date.SelectedDate.Value.ToShortDateString()));
             }
-            else if ((sender as Button) == panel.Children[1] && data.SelectedItem != null)
-            {
+
+
+            else if ((sender as Button) == panel.Children[1] && data.SelectedItem != null){
                 foreach (var a in txtboxes.Children) if ((a as TextBox).Text == "") return;
                 notes[tmp_id] = new notes((txtboxes.Children[0] as TextBox).Text, (txtboxes.Children[1] as TextBox).Text, date.SelectedDate.Value.ToShortDateString());
             }
-            else if ((sender as Button) == panel.Children[2] && data.SelectedItem != null)
-            {
+
+
+            else if ((sender as Button) == panel.Children[2] && data.SelectedItem != null){
                 notes.RemoveAt(tmp_id);
             }
             json.serial("notes.json", notes);
+
             set();
             tmp_id = -1;
         }
@@ -63,16 +66,17 @@ namespace practocsharp8
         }
         private void data_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (data.SelectedIndex != -1)
-            {
+            if (data.SelectedIndex != -1){
                 dynamic a = notes[data.SelectedIndex];
                 Type type = a.GetType();
                 for (int i = 0; i < type.GetProperties().Length; i++) (txtboxes.Children[i] as TextBox).Text = type.GetProperties()[i].GetValue(a).ToString();
             }
-            for (int i = 0; i < notes.Count; i++)
-            {
-                if (notes[i].title == (txtboxes.Children[0] as TextBox).Text && notes[i].description == (txtboxes.Children[1] as TextBox).Text && notes[i].date == date.SelectedDate.Value.ToShortDateString())
-                {
+
+
+            for (int i = 0; i < notes.Count; i++){
+
+
+                if (notes[i].title == (txtboxes.Children[0] as TextBox).Text && notes[i].description == (txtboxes.Children[1] as TextBox).Text && notes[i].date == date.SelectedDate.Value.ToShortDateString()){
                     tmp_id = i;
                     break;
                 }
@@ -108,13 +112,11 @@ namespace practocsharp8
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if ((sender as Button).Content.ToString() == "Изменить язык")
-            {
+            if ((sender as Button).Content.ToString() == "Изменить язык"){
                 Application.Current.Resources.MergedDictionaries.Clear();
                 Application.Current.Resources.MergedDictionaries.Insert(0, new ResourceDictionary { Source = new Uri("pack://application:,,,/Lang;component/eng_theme.xaml") });
             }
-            else
-            {
+            else{
                 Application.Current.Resources.MergedDictionaries.Clear();
                 Application.Current.Resources.MergedDictionaries.Insert(0, new ResourceDictionary { Source = new Uri("pack://application:,,,/Lang;component/ru_theme.xaml") });
             }

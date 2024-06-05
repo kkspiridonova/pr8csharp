@@ -25,3 +25,7 @@ C:\Users\User\source\repos\practocsharp8\obj\Debug\net8.0-windows\refint\practoc
 C:\Users\User\source\repos\practocsharp8\obj\Debug\net8.0-windows\practocsharp8.pdb
 C:\Users\User\source\repos\practocsharp8\obj\Debug\net8.0-windows\practocsharp8.genruntimeconfig.cache
 C:\Users\User\source\repos\practocsharp8\obj\Debug\net8.0-windows\ref\practocsharp8.dll
+C:\Users\User\source\repos\practocsharp8\obj\Debug\net8.0-windows\Lang\eng_theme.baml
+C:\Users\User\source\repos\practocsharp8\obj\Debug\net8.0-windows\Lang\ru_theme.baml
+C:\Users\User\source\repos\practocsharp8\obj\Debug\net8.0-windows\Lang\Themes\eng.baml
+C:\Users\User\source\repos\practocsharp8\obj\Debug\net8.0-windows\Lang\Themes\ru.baml
